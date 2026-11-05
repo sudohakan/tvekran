@@ -13,6 +13,7 @@
 - Runs as an accessibility service and uses `AccessibilityService.takeScreenshot` (Android 11+), so no MediaProjection prompt appears and nothing has to be confirmed on the TV.
 - `GET /screen.jpg` returns a fresh frame. The platform allows one capture per second; a request inside that window gets the last frame, and a failed capture returns `503` instead of an old picture.
 - `GET /health` answers `ok` for monitoring.
+- The accessibility service description is English, with a Turkish translation for Turkish-language devices.
 - Starts again by itself after a reboot once the service is enabled.
 
 ## Security
