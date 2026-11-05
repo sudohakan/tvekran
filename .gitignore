@@ -1,0 +1,9 @@
+build/
+signing.env
+*.keystore
+*.jks
+*.p12
+*.pem
+*.apk
+local.properties
+DEVAM.md

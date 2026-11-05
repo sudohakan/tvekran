@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desc">Serves the screen on the local network at http://&lt;box&gt;:8085/screen.jpg.</string>
+</resources>
